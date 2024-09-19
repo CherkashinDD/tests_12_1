@@ -17,7 +17,7 @@ class RunnerTest(unittest.TestCase):
 
     def test_challenge(self):
         runner_3 = r.Runner("Лёша")
-        runner_4 = r.Runner("Миша")
+        runner_4 = r.Runner("Вася")
         for _ in range(10):
             runner_3.run()
             runner_4.walk()
